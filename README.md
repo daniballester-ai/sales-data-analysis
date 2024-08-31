@@ -1,6 +1,6 @@
 # Análise de Dados de Vendas (Sales-Data-Analysis)
 
-Este projeto realiza uma análise completa de dados de vendas utilizando uma base de dados real. Essa base foi obtida do [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis?resource=download), e alguns ajustes foram feitos para adequá-la às necessidades do projeto.
+Este projeto realiza uma análise de dados de vendas utilizando uma base de dados real. Essa base foi obtida do [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis?resource=download), e alguns ajustes foram feitos para adequá-la às necessidades do projeto.
 
 ## Estrutura do Projeto
 

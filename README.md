@@ -1,6 +1,24 @@
 # Análise de Dados de Vendas (Sales-Data-Analysis)
 
-Este projeto realiza uma análise completa de dados de vendas utilizando uma base de dados real. Essa base foi obtida do [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis?resource=download), e alguns ajustes foram feitos para adequá-la às necessidades do projeto.
+## Análise de Dados de Vendas
+
+Este projeto visa automatizar a extração e análise de dados de vendas de uma empresa, armazenados em arquivos CSV. O script irá:
+
+1. **Ler arquivos CSV:** Ler todos os arquivos CSV presentes em um diretório específico.
+2. **Combinar dados:** Combinar os dados de todos os arquivos em um único DataFrame Pandas.
+3. **Análise exploratória:** Realizar análise exploratória dos dados, incluindo:
+   * **Cálculo do total de vendas por região:** Identificar as regiões com maiores volumes de vendas.
+   * **Identificação dos produtos mais vendidos:** Determinar quais produtos têm maior demanda.
+4. **Visualização:** Visualizar os resultados da análise utilizando bibliotecas de visualização de dados como Matplotlib ou Seaborn.
+5. **Exportação de resultados:** Exportar os resultados da análise para um novo arquivo CSV.
+
+**Requisitos:**
+
+* **Eficiência e Reutilização:** O script deve ser desenvolvido com técnicas de programação eficientes e reutilizáveis para facilitar a manutenção e a aplicação em outras análises.
+* **Documentação:** O código deve ser bem documentado com comentários claros e concisos para facilitar a compreensão e a manutenção.
+* **Controle de Versão:** O Git deve ser utilizado para controlar o versionamento do código, garantindo a rastreabilidade das alterações e a colaboração entre desenvolvedores.
+
+O projeto realiza uma análise de dados de vendas utilizando uma base de dados real. Essa base foi obtida do [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis?resource=download), e alguns ajustes foram feitos para adequá-la às necessidades do projeto.
 
 ## Estrutura do Projeto
 
@@ -93,7 +111,10 @@ pip install -r requirements.txt
 
 #### Processamento e Análise de Dados
 
-Execute o script `main.py` para processar os arquivos CSV de vendas, realizar a análise e exportar os resultados:
+**Uso:**
+
+1. Coloque os arquivos CSV com os dados de vendas no diretório `csv`.
+2. Execute o script `main.py` para processar os arquivos CSV de vendas, realizar a análise e exportar os resultados:
 
 ```bash
 python main.py
@@ -111,7 +132,7 @@ Os resultados da análise serão exportados para:
   - `total_vendas_por_regiao.png`: Gráfico de barras mostrando o total de vendas por região.
   - `produtos_mais_vendidos.png`: Gráfico de barras mostrando os produtos mais vendidos.
 
-Os arquivos exportados estarão no diretório: `\resultados_analise`.
+Os arquivos exportados estarão no diretório: `resultados_analise`.
 
 ## Funções e Documentação
 
